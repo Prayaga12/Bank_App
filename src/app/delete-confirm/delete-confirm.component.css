@@ -1,0 +1,10 @@
+.dl{
+    border: 5px;
+    border-color: white;
+    border-style: double;
+    text-align: center;
+    padding: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 25px;
+}

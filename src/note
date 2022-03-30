@@ -1,0 +1,103 @@
+                                    Angular - Basic Commands
+                                ---------------------------------
+                                
+                        1. To create Project - ng new project_name
+
+                        2. To run a project - ng serve
+
+                        3. To create a Component - ng g c component_name
+
+                        4. To create a Service - ng g s service_name
+
+                        5. To create a Directive - ng g d directive_name
+
+                        6. To create 
+
+
+                                    Angular Building Blocks
+                                ---------------------------------
+
+                        1. Module - To import libraries / root module - AppModule
+
+                        2. Component - { html, css, ts } - root component - AppComponent
+
+                        3. Data Binding - Sharing data within a component
+
+                            3.1 One way Binding - Data flow in one direction
+
+                                3.1.1 Component to View
+
+                                    3.1.1.1 String interpolation - syntax: {{expression}}
+
+                                    3.1.1.2 Property Binding - syntax: [target-property]="source-property"
+
+                                3.1.2 View to Component
+
+                                    3.1.2.1 Event Binding - syntax: (event-name)="function-call"
+
+                                    3.1.2.2 Event Binding using $event as argument 
+                                            - syntax: (event-name)="function call($event)"
+
+                                    3.1.2.3 Template referencing variable - syntax: #variable-name
+
+                            3.2 Two way Binding - Data flow in two direction - Import FormsModule in AppModule
+                                    - syntax: [(ngModel)]="variable-name" Set name property of the tag if we used
+                                    ngModel inside a form tag.
+
+                        4. App Routing Module - To set path for an HTML page
+
+                        5. Dependency Injection - To communicate data between class / component (interview qstn - imp.)
+
+                        6. Angular Services - To keep redundant code
+
+                        7. ngSubmit - To submit an entire form
+
+                        8. Angular Directives - To manipulate DOM (Document Object Model)
+
+                            8.1 Component Directives
+
+                            8.2 Structural Directives - syntax: *keyword="condition"
+
+                                8.2.1 ngIf - syntax: *ngIf="condition"
+
+                                8.2.2 ngSwitch
+
+                                8.2.3 ngFor
+
+                            8.3 Attribute Directives - To apply set of style to html
+
+                                8.3.1 In built - ngClass 
+
+                                8.3.2 Userdefined
+
+                        9. Angular Forms
+
+                            9.1 Template Driven Angular Forms - Fisrt design the html page
+
+                            9.2 Model Driven Angular Forms - Fisrt design the model in ts file
+
+                                9.2.1 Reactive Forms - Add Validation to the Forms - ReactiveFormsModule
+                                            {Form Group - Form Builder class, Form Array, Form Control Name}
+    
+                        10. Local Storage - To store data permenantly in a browser
+
+                            10.1 setItem - To store 
+
+                            10.2 getItem - To get
+
+                            10.3 removeItem - To delete
+
+                        11. Pipe - To transform data to another format
+                                   syntax - {value_expression | pipe operator [: pipe Argument]}
+
+                        12. Parent - Child Communication
+
+                            12.1 Parent to Child - Input decorator
+
+                            12.2 Child to Parent - Output decorator 
+
+                        13. EventEmitter - To create userdefined event ;
+                               
+                                         - To occur the event - emit() 
+
+                        14. Animation
