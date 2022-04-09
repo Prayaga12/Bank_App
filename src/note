@@ -11,7 +11,7 @@
 
                         5. To create a Directive - ng g d directive_name
 
-                        6. To create 
+                        6. To built Angular App - ng build --prod
 
 
                                     Angular Building Blocks

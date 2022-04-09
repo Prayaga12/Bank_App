@@ -173,7 +173,6 @@ export class DataService {
   }
 
 //transaction
-
   getTransaction(acno:any){
     return this.database[acno]["transaction"]
   }
